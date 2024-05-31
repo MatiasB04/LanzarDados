@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
       return (1..max).random()
 
 
-    }
+    } 
 
     private fun tiempo(){
         object: CountDownTimer(3000, 200){
